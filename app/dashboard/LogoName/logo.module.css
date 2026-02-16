@@ -1,0 +1,25 @@
+.logoText {
+    padding-left: 30px;
+    align-items: center;
+    display: flex;
+}
+
+
+.dmsansfirst {
+    font-family: var(--font-dm-sans), sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    
+}
+.dmsansmiddle {
+    font-family: var(--font-dm-sans), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dmsanslast {
+    font-family: var(--font-dm-sans), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
