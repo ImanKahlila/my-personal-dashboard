@@ -1,4 +1,5 @@
 import Logo from './dashboard/LogoName/logo.jsx';
+import NewsCarousel from './dashboard/News/news.jsx';
 import styles from './page.module.css';
 
 export default function Dashboard() { /*export default function is just normal vanilla JS* - export lets other files use it as a function - default means this is the main thing from this file so import it w/ no curly braces*/
@@ -21,7 +22,7 @@ export default function Dashboard() { /*export default function is just normal v
 {/*Dashboard widgets go here */}
 
 <div className={styles.news}>
-  News
+  <NewsCarousel />
 </div>
         {/* <Weather /> */}
         {/* <Music /> */}
