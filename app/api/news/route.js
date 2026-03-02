@@ -7,10 +7,10 @@ export async function GET(){
 const apiKey = process.env.NEWS_API_KEY
 
 const url = `https://content.guardianapis.com/search?` + 
-`section=technology|us-news&` +
-`show-fields=thumbnail,trailText&` +
+`section=technology&` +
+`show-fields=thumbnail,trailText,&` +
 `order-by=newest&` +
-`page-size=8&` +
+`page-size=7&` +
 `api-key=${apiKey}`
 
 const response = await fetch(url)

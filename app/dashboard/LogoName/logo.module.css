@@ -5,21 +5,21 @@
 }
 
 
-.dmsansfirst {
-    font-family: var(--font-dm-sans), sans-serif;
+.akirafirst {
+    font-family: var(--font-akira-expanded), sans-serif;
     font-size: 18px;
-    font-weight: 700;
-    color: white;
+    font-weight: 400;
+    color: #9DC4D5
     
 }
-.dmsansmiddle {
-    font-family: var(--font-dm-sans), sans-serif;
+.akirasecond {
+    font-family: var(--font-akira-expanded), sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-.dmsanslast {
-    font-family: var(--font-dm-sans), sans-serif;
+.akirathird {
+    font-family: var(--font-akira-expanded), sans-serif;
     font-size: 16px;
     font-weight: 400;
 }

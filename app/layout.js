@@ -1,6 +1,7 @@
 import "./globals.css";
 import localFont from 'next/font/local';
 import { DM_Sans} from 'next/font/google';
+import { Source_Code_Pro } from "next/font/google";
 
 const dmSans = DM_Sans({
   subsets: ['latin'], 
@@ -8,6 +9,14 @@ const dmSans = DM_Sans({
   style: ['normal'],
   variable: '--font-dm-sans',
 });
+
+const sourceCodePro = Source_Code_Pro({
+  subsets: ['latin'],
+ weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
+  style: ['normal'],
+  variable: '--font-source-code-pro',
+});
+
 
 const akiraExpanded = localFont({
   src: '../public/fonts/AkiraExpanded.woff2',
@@ -29,7 +38,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${akiraExpanded.variable}`}>
+      <body className={`${dmSans.variable} ${akiraExpanded.variable} ${sourceCodePro.variable}`}>
         {children}
       </body>
     </html>

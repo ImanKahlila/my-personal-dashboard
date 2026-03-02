@@ -1,6 +1,7 @@
 import Logo from './dashboard/LogoName/logo.jsx';
 import NewsCarousel from './dashboard/News/news.jsx';
 import styles from './page.module.css';
+import BentoGrid from './dashboard/Homepage/bentoboxgrid.jsx';
 
 export default function Dashboard() { /*export default function is just normal vanilla JS* - export lets other files use it as a function - default means this is the main thing from this file so import it w/ no curly braces*/
   return ( /*return is just the body tag in HTML*/
@@ -18,6 +19,7 @@ export default function Dashboard() { /*export default function is just normal v
     <a href="#" className={styles.logout}>.logout</a>
   </div>
     </div>
+    <BentoGrid />
 
 {/*Dashboard widgets go here */}
 
